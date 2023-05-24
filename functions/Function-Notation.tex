@@ -1,0 +1,121 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black}
+\usepackage[latin1]{inputenc}
+% \usepackage{cancel}
+\usepackage{multicol}
+\usepackage{pgfplots}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\pgfplotsset{axis lines=left, grid style={solid,black},grid=both,xtick distance=2, ytick distance =2, xmin=-10,xmax=10,ymin=-10,ymax=10}%xtick={-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9,10},ytick={-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9,10}}
+\pgfplotsset{compat=1.18}
+
+\begin{document}
+\title{Function-Notation}
+% \author{Cole Kauder-McMurrich}
+% \date{\today}
+% \maketitle
+
+\section*{Find Values Using Function Notation}
+
+\subsection*{What does a function do?}
+Takes an input(x), performs operations on it and then gives an output (y)
+
+\subsection*{What does function notation look like?}
+$f(x)$ = ... something to do with x
+
+read as $f$ at $x$ or $f$ of $x$
+
+replaces $y$
+
+\subsection*{Example 1}
+For each of the following functions, determine $f(2)$,$f(-5)$, and $f(1/2)$\\
+% \begin{enumerate}[label=\alph*)]
+    % \item $f(x) = 2x - 4$
+\indent
+a) $f(x) = 2x - 4$
+
+\begin{multicols}{3}
+\noindent
+\begin{equation*}
+\begin{split}
+    f(2) &= 2(2) - 4\\
+    &= 4 - 4\\
+    &= 0\\
+\end{split}
+\end{equation*}
+\begin{equation*}
+\begin{split}
+    f(5) &= 2(5) - 4\\
+    &= 10 - 4\\
+    &= 6\\
+\end{split}
+\end{equation*}
+\begin{equation*}
+\begin{split}
+    f\left(\frac{1}{2}\right) &= 2\left(\frac{1}{2}\right) - 4\\
+    &= 1 - 4\\
+    &= -3\\
+\end{split}
+\end{equation*}
+\end{multicols}
+
+b) $f(x) = 3x^2 - x + 7$
+
+\begin{multicols}{2}
+\noindent
+\begin{equation*}
+\begin{split}
+    f(2) &= 3(2)^2 - 2 + 7\\
+    &= 12 - 2 + 7\\
+    &= 10 + 7\\
+    &= 17\\
+\end{split}
+\end{equation*}
+\begin{equation*}
+\begin{split}
+    f(5) &= 3(-5)^2 - (-5) + 7\\
+    &= 75 - (-5) + 7\\
+    &= 80 + 7\\
+    &= 87\\
+\end{split}
+\end{equation*}
+\end{multicols}
+\begin{equation*}
+\begin{split}
+    f\left(\frac{1}{2}\right) &= 3\left(\frac{1}{2}\right)^2 - \left(\frac{1}{2}\right) + 7\\
+    &= \frac{3}{4} - \left(\frac{1}{2}\right) + 7\\
+    &= \frac{1}{4} + 7\\
+    &= 7\frac{1}{4}\\
+\end{split}
+\end{equation*}
+
+\newpage
+\section*{Applications of Function Notation}
+For the function $h(t) = -3(t+1)^2 + 5$\\
+\indent
+a) Graph it and find the domain and range\\
+\indent
+skipping because graphing is being annoying
+% \begin{tikzpicture}
+%     \begin{axis}
+%         \addplot[blue, ultra thick] {-3(x+1)^2+5};
+%         % \addplot[color=blue] coordinates{(-14,-10)(10, 14)};
+%         % \addplot[color=red] coordinates{(12,-10)(-10, 12)};
+%         % \addlegendentry{\(y=x + 4\)}
+%         % \addlegendentry{\(y=-x + 2\)}
+%     \end{axis}
+% \end{tikzpicture}
+b) Find $h(-7)$
+
+\begin{equation*}
+\begin{split}
+    h(-7) &= -3(-7+1)^2+5\\
+          &= -3(36)+5\\
+          &= -108+5\\
+          &= -103\\
+\end{split}
+\end{equation*}
+\end{document}
